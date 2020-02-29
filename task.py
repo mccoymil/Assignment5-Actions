@@ -11,5 +11,5 @@ def areacircle(rad):
 def liststartend(list):
     rtnlist = []
     rtnlist.append(list[0])
-    rtnlist.append(list[len(list)])
+    rtnlist.append(list[len(list)-1])
     return rtnlist
