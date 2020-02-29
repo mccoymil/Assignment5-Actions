@@ -17,7 +17,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(expected, task.areacircle(1))
 
     def test4(self):
-        expected = [1,5]
+        expected = [1, 5]
         self.assertEqual(expected, task.liststartend([1, 2, 3, 4, 5]))
 
 
