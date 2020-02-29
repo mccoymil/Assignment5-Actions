@@ -16,6 +16,10 @@ class TestCase(unittest.TestCase):
         expected = 3.14159
         self.assertEqual(expected, task.areacircle(1))
 
+    def test4(self):
+        expected = [1,5]
+        self.assertEqual(expected, task.liststartend([1, 2, 3, 4, 5]))
+
 
 if __name__ == '__main__':
     unittest.main()
