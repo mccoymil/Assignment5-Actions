@@ -22,7 +22,7 @@ class TestCase(unittest.TestCase):
 
     def test5(self):
         expected = 10
-        self.assertEqual(expected, task.daycounter((2020, 1, 1), (2020, 1, 11)))
+        self.assertEqual(expected, task.daycounter(2020, 1, 1, 2020, 1, 11))
 
 
 if __name__ == '__main__':

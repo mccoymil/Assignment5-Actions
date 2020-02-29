@@ -17,8 +17,8 @@ def liststartend(list):
     return rtnlist
 
 
-def daycounter(date1, date2):
-    d1 = date(date1)
-    d2 = date(date2)
-    timedelta.days = d2 - d1
+def daycounter(year1, mon1, day1, year2, mon2, day2):
+    d1 = date(year1, mon1, day1)
+    d2 = date(year2, mon2, day2)
+    timedelta = d2 - d1
     return timedelta.days
