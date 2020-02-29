@@ -20,6 +20,10 @@ class TestCase(unittest.TestCase):
         expected = [1, 5]
         self.assertEqual(expected, task.liststartend([1, 2, 3, 4, 5]))
 
+    def test5(self):
+        expected = 10
+        self.assertEqual(expected, task.daycounter((2020, 1, 1), (2020, 1, 11)))
+
 
 if __name__ == '__main__':
     unittest.main()
