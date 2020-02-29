@@ -20,4 +20,4 @@ def daycounter(year1, mon1, day1, year2, mon2, day2):
     d1 = date(year1, mon1, day1)
     d2 = date(year2, mon2, day2)
     timedelta = d2 - d1
-    return timedelta
+    return timedelta.days
